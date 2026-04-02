@@ -21,8 +21,8 @@ export function Contact() {
             {contact.headline}
           </h2>
           <p className="mt-4 max-w-xl text-[0.9375rem] leading-relaxed text-muted sm:text-base">
-            Open to full-time marketing roles with consumer brands and teams that care about
-            insight-led strategy.
+            I’m currently looking for full-time marketing roles where I can contribute and
+            continue building as a marketer.
           </p>
           <div className="mt-10 flex flex-col gap-6 sm:mt-12">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-8">

@@ -19,11 +19,11 @@ export function SelectedWork() {
               id="work-heading"
               className="max-w-2xl text-3xl font-semibold tracking-tight text-foreground sm:text-4xl"
             >
-              Strategic projects with measurable narrative
+              Strategic Work Focused on Insight &amp; Growth
             </h2>
             <p className="max-w-md text-sm leading-relaxed text-muted sm:text-[0.9375rem]">
-              Case highlights focused on insight, positioning, and go-to-market thinking—built
-              to read like portfolio work, not slide decks.
+              These projects highlight how I approach consumer insight, positioning, and
+              go-to-market strategy.
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 md:gap-8 lg:gap-10">

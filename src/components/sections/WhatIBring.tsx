@@ -19,8 +19,8 @@ export function WhatIBring() {
             What I bring to a marketing team
           </h2>
           <p className="mt-4 max-w-2xl text-[0.9375rem] leading-relaxed text-muted sm:text-base">
-            A blend of analytical rigor and brand intuition—grounded in real conversations with
-            customers and structured strategy work.
+            I combine structured thinking with real customer understanding to build strategies
+            that actually work.
           </p>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 sm:gap-6 lg:mt-14 lg:gap-8">
             {valueProps.map((item) => (

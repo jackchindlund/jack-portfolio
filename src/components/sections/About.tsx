@@ -12,12 +12,12 @@ export function About() {
     >
       <Container>
         <FadeIn>
-          <SectionEyebrow>About</SectionEyebrow>
+          <SectionEyebrow>Background</SectionEyebrow>
           <h2
             id="about-heading"
             className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-foreground sm:text-4xl"
           >
-            Why marketing, why now
+            About
           </h2>
           <div className="mt-10 max-w-2xl space-y-6 text-[0.9375rem] leading-[1.75] text-foreground/88 sm:text-lg sm:leading-[1.75]">
             {aboutParagraphs.map((p, i) => (

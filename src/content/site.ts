@@ -8,10 +8,10 @@ export const resumeUrl = "/Jack_Chindlund_Resume.pdf";
 export const person = {
   name: "Jack Chindlund",
   headline:
-    "Marketing Candidate Focused on Consumer Insight, Brand Strategy, and Product Thinking for Consumer Brands",
+    "Marketing Candidate Focused on Consumer Insight, Brand Strategy, and Product Thinking",
   intro: [
-    "I’m a marketing student at the University of Colorado Boulder focused on understanding how consumers actually make decisions—and how brands can turn that insight into strategy that drives growth.",
-    "Through case competitions, project work, and real-world experience, I’ve developed a strong interest in building positioning, messaging, and go-to-market strategies that connect with people in a meaningful way.",
+    "I’m a marketing student at the University of Colorado Boulder, focused on how people make decisions—and how brands can turn that insight into strategy that drives growth.",
+    "Through case competitions, project work, and time working with customers, I keep coming back to positioning, messaging, and go-to-market plans that are clear and feel relevant in real life.",
   ],
   headshotSrc: "/images/Jack_Chindlund_Headshot.jpg",
   headshotAlt: "Jack Chindlund",
@@ -68,7 +68,7 @@ export const valueProps = [
   },
   {
     title: "Brand & positioning",
-    body: "Experience developing messaging and positioning that helps brands stand out in competitive markets.",
+    body: "I’ve worked on messaging and positioning that help brands stand out in crowded markets.",
   },
   {
     title: "Product & customer mindset",
@@ -114,8 +114,8 @@ export const tools = [
 
 export const aboutParagraphs = [
   "I’m interested in marketing because it sits at the intersection of consumer behavior, strategy, and creativity—but what interests me most is understanding what actually drives people to act.",
-  "Through both academic work and real-world experience, I’ve focused on developing a strong foundation in consumer insight, positioning, and go-to-market thinking.",
-  "I’m currently looking to start my career in a marketing role where I can continue building those skills and contribute to meaningful brand growth.",
+  "Through school and real-world experience, I’ve been building my skills in consumer insight, positioning, and go-to-market thinking.",
+  "I’m looking for a marketing role where I can keep growing and contribute to brand work that matters.",
 ];
 
 export const contact = {
