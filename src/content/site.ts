@@ -2,8 +2,8 @@
  * Central copy + structured content. Edit here to update the site.
  */
 
-/** TODO: Replace with your hosted resume PDF or Google Drive / Dropbox share link */
-export const resumeUrl = "https://example.com/your-resume.pdf";
+/** Hosted in /public — update the file there when your resume changes */
+export const resumeUrl = "/Jack_Chindlund_Resume.pdf";
 
 export const person = {
   name: "Jack Chindlund",
@@ -13,10 +13,8 @@ export const person = {
     "I’m a marketing student at the University of Colorado Boulder focused on understanding how consumers actually make decisions—and how brands can turn that insight into strategy that drives growth.",
     "Through case competitions, project work, and real-world experience, I’ve developed a strong interest in building positioning, messaging, and go-to-market strategies that connect with people in a meaningful way.",
   ],
-  /** Path under /public — replace file + alt when you have your final headshot */
-  headshotSrc: "/images/headshot-placeholder.svg",
-  headshotAlt:
-    "Professional headshot of Jack Chindlund — replace this image and alt text with your photo",
+  headshotSrc: "/images/Jack_Chindlund_Headshot.jpg",
+  headshotAlt: "Jack Chindlund",
 };
 
 export const navItems = [

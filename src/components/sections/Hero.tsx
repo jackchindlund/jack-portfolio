@@ -29,9 +29,6 @@ export function Hero() {
               ))}
             </div>
             <div className="mt-10 flex flex-wrap gap-3 sm:mt-12">
-              {
-                /* TODO: When your resume is hosted, update resumeUrl in src/content/site.ts */
-              }
               <ButtonExternal href={resumeUrl}>View resume</ButtonExternal>
               <ButtonLink href="#contact" variant="secondary">
                 Contact me
@@ -40,10 +37,6 @@ export function Hero() {
           </div>
 
           <div className="relative lg:col-span-5 xl:col-span-6">
-            {/*
-             * Headshot: replace /public/images/headshot-placeholder.svg with your image
-             * (e.g. headshot.jpg) and update person.headshotSrc + person.headshotAlt in site.ts
-             */}
             <div className="relative mx-auto w-full max-w-[min(100%,28rem)] lg:ml-auto lg:mr-0 lg:max-w-none">
               <div
                 aria-hidden
