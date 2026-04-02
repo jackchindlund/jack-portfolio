@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="700" viewBox="0 0 560 700" role="img" aria-label="Replace with your headshot">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8ef"/>
+      <stop offset="100%" style="stop-color:#d4d4dd"/>
+    </linearGradient>
+    <linearGradient id="sil" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#9a9aaf"/>
+      <stop offset="100%" style="stop-color:#6b6b7e"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="700" fill="url(#bg)"/>
+  <ellipse cx="280" cy="320" rx="120" ry="130" fill="url(#sil)" opacity="0.5"/>
+  <ellipse cx="280" cy="520" rx="200" ry="220" fill="url(#sil)" opacity="0.35"/>
+</svg>
