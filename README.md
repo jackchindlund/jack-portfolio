@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jack Chindlund — personal website
 
-## Getting Started
+Employer-focused portfolio for product marketing, sales enablement, and practical AI implementation. Built with the existing Next.js 16 App Router, React, TypeScript, and Tailwind setup. Hosting remains GitHub → Vercel.
 
-First, run the development server:
+## Develop and check
 
-```bash
+Use Node 24, matching the existing Vercel project, and the committed npm lockfile.
+
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run lint
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The production build prerenders the homepage, three case studies, and HTML resume. JavaScript adds only the mobile-menu refinement, email-copy action, and prepared-example selection. The stories and all three example outputs are available in the server-rendered HTML.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content maintenance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/content/site.ts`: public name, email, navigation, site origin, substantive update date, and PDF address.
+- `src/content/projects.ts`: public project summaries, ownership, status, and case-study sections. Stable slugs feed static routes and the sitemap.
+- `src/content/experience.json`: resume experience, leadership, education, and skills. The homepage reuses the education record.
+- `src/content/demo.ts`: fictional source facts. Prepared outputs live in the demo component; keep each claim connected to the matching source.
+- `public/resume/jack-chindlund-resume.pdf`: current selectable-text public PDF. When experience changes, update the HTML record and PDF together, then inspect the rendered PDF and extracted text.
+- `public/images/share/`: 1200 × 630 share images, one per public page. Update alongside substantive changes to titles.
+- `public/fonts/`: locally served OFL-licensed Geist and Source Serif 4; license notices are included.
 
-## Learn More
+Current-role wording was confirmed October 17, 2026. Review it when employment changes. Retain scope qualifiers: initial 65 calls, a 13-feature catalog, and shared contribution to one quarter's department results.
 
-To learn more about Next.js, take a look at the following resources:
+Never commit internal source materials, transcripts, customer quotations, private context files, secrets, or the private claim register. Public illustrations and the demonstration use original fictional material with visible labels. Personal projects and analytics are excluded from this release.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pages and continuity
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/`: introduction, selected work, background, and contact.
+- `/work/product-knowledge`: knowledge-system story and prepared example.
+- `/work/sales-call-analysis`: analysis story, verification, and training direction.
+- `/work/dealer-enablement`: live-resource story and fictional feature entry.
+- `/resume`: HTML professional record and downloadable PDF.
 
-## Deploy on Vercel
+Homepage anchors `home`, `work`, `experience`, `about`, and `contact` remain available. The original PDF path permanently redirects to the current resume. The production canonical host is `www.jackchindlund.com`; the existing Vercel domain redirect is unchanged.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Review and release
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Use a separate branch and Vercel preview deployment for review. Production follows `main`; merge only after reviewing the actual screens and public wording. This redesign does not change Vercel settings, authentication, domain ownership, or analytics.
+
+Check all routes and the PDF, radio controls and source anchors, menu/keyboard operation, reduced motion, narrow and wide reflow, metadata, missing pages, and link continuity. Code/build checks and manual browser review complement each other; neither establishes formal accessibility certification.

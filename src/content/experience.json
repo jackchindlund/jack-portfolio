@@ -1,0 +1,61 @@
+{
+  "summary": "Product marketing and AI workflow experience grounded in customer-facing sales and team leadership. Builds useful systems, turns product information into seller resources, and checks AI outputs against source material.",
+  "roles": [
+    {
+      "company": "Trimble",
+      "title": "Product Marketing Intern, Platforms & AI",
+      "dates": "May 2026 - Present",
+      "location": "Westminster, Colorado",
+      "bullets": [
+        "Built a shared-drive knowledge system for an AI agent using Google Apps Script, supporting evolving product knowledge, deliverable formats, and working document and slide generation.",
+        "Built an ongoing AI-powered sales-call analysis system; analyzed an initial 65 Gong transcripts and delivered messaging findings and training recommendations to sales enablement.",
+        "Checked selected analysis responses through a second AI with the source database, transcript quotation checks, and questions the evidence could not support.",
+        "Designed the framework and wrote all content for a live internal catalog of 13 product features; rewrote and restructured a live dealer/seller enablement page.",
+        "Authored discovery, objection-handling, pricing, data-sheet, and competitive sales resources."
+      ]
+    },
+    {
+      "company": "Best Buy",
+      "title": "Shift Lead",
+      "dates": "October 2023 - May 2026",
+      "location": "Colorado",
+      "bullets": [
+        "Supervised 15+ associates and trained 25+ across the role, coaching customer discovery and experiential selling.",
+        "Helped double department audio attach and increase TV main-unit average selling price from $600 to $750 in one quarter through discovery-focused coaching."
+      ]
+    },
+    {
+      "company": "Best Buy",
+      "title": "Sales Advisor",
+      "dates": "October 2020 - October 2023",
+      "location": "Colorado",
+      "bullets": [
+        "Worked directly with Home Theater customers to understand their needs and connect product capabilities to the experience they wanted."
+      ]
+    }
+  ],
+  "leadership": {
+    "organization": "Delta Tau Delta",
+    "title": "Founding Vice President",
+    "dates": "October 2022 - November 2023",
+    "description": "Helped reestablish the chapter after a 30-year absence and grow membership from approximately 20 to 40+. Oversaw three committee chairs."
+  },
+  "education": {
+    "school": "University of Colorado Boulder",
+    "college": "Leeds School of Business",
+    "degree": "BS, Business Administration",
+    "emphasis": "Marketing and Strategy/Entrepreneurship dual emphasis",
+    "certificate": "Certificate in Leadership",
+    "date": "May 2026"
+  },
+  "skills": [
+    "Product marketing",
+    "Sales enablement",
+    "AI workflow implementation",
+    "Source-based analysis",
+    "Google Apps Script",
+    "JavaScript, HTML & CSS",
+    "Google Workspace APIs",
+    "Customer discovery & coaching"
+  ]
+}
